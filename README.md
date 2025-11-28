@@ -1,7 +1,7 @@
 # Security Tools Repository
 ## How to Use
 To use just download the Tool_install.sh script, and run it. 
-It will prompt for what username you use. default is kali
+It will prompt for what username you use. default is kali.
 
 ## Tools in this Repo
 There are various tools installed with this. This is the list of the tools and their uses:
@@ -54,7 +54,8 @@ There are various tools installed with this. This is the list of the tools and t
     Checks for privilege escalation options
 ### 24. Snaffler.exe
     used to find credentials on windows machines
-
+## TO DO
+1. add ligolo to script & readme
 ## Legal Notice
 
 This repository contains penetration testing tools for my personal use in **authorized security assessments and CTF competitions only**.
