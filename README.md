@@ -6,11 +6,11 @@ It will prompt for what username you use. default is kali
 ## Tools in this Repo
 There are various tools installed with this. This is the list of the tools and their uses:
 ### 1. Eyewitness
-  A. Used for convering nmap scans into a report
+     A. Used for convering nmap scans into a report
 ### 2. Bloodhound
-  A. used to ingest AD data from Sharphound for a graph and uses
+     A. used to ingest AD data from Sharphound for a graph and uses
 ### 3. Kerbrute
-  A. A tool to quickly bruteforce and enumerate valid Active Directory accounts through Kerberos Pre-Authentication
+     A. A tool to quickly bruteforce and enumerate valid Active Directory accounts through Kerberos Pre-Authentication
 ### 4. 
 
 ## Legal Notice
