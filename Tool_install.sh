@@ -122,6 +122,19 @@ wget https://github.com/SnaffCon/Snaffler/releases/download/1.0.212/Snaffler.exe
 ######-----------------------------------------------------------------------------#######
 cd /home/kali/tools/
 git clone --depth 1 https://github.com/Ridter/noPac.git
+# Install Ligolo, useful for pivoting
+mkdir "$TOOLS_DIR/ligolo"
+cd "$TOOLS_DIR/ligolo"
+# Linux x64 pivot
+wget https://github.com/nicocha30/ligolo-ng/releases/download/v0.8.2/ligolo-ng_agent_0.8.2_linux_amd64.tar.gz
+# Linux x64 host
+wget https://github.com/nicocha30/ligolo-ng/releases/download/v0.8.2/ligolo-ng_proxy_0.8.2_linux_amd64.tar.gz
+# Windows x64 pivot
+wget https://github.com/nicocha30/ligolo-ng/releases/download/v0.8.2/ligolo-ng_agent_0.8.2_windows_amd64.zip
+tar -xzf ligolo-ng_proxy_0.8.2_linux_amd64.tar.gz
+tar -xzf ligolo-ng_agent_0.8.2_linux_amd64.tar.gz
+unzip ligolo-ng_agent_0.8.2_windows_amd64.zip
+
 echo "  "
 echo "  "
 echo "##################################################"
